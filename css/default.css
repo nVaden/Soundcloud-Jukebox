@@ -1,0 +1,41 @@
+body {
+ background-color: black;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: fixed;
+}
+h1 {
+    border: 1px solid white;
+    text-align:center;
+    font-size: x-large;
+    color: black;
+   /* font-family: trench100free;*/
+}
+#playlist {
+    border: 1px solid white;
+    text-align:center;
+    }
+.searchSection{
+    border: 1px solid white;
+    text-align:center;
+}
+@font-face {
+    font-family: trench100free;
+    src: url(assets/trench100free);
+}

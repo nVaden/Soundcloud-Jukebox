@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+   <meta charset="UTF-8">
+   <title>JukeBox Player</title>
+   <link rel="stylesheet" href="css/default.css">
+  <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+ </head>
+
+ <body>
+ <div class="fullscreen-bg">
+	<video loop muted autoplay class="fullscreen-bg__video">
+ 			<source src="assets/TrippyBackground.mp4" type="video/mp4">
+ 		</video>
+ </div>
+ 	<h1 id="h1">JukeBox Sample</h1>
+ 	<div id="playlist">
+
+ 		<audio id="Jukebox"></audio>
+ 		<button id="play">Play</button>
+ 		<button id="pause">Pause</button>
+ 		<button id="nextButton">Next</button>
+ 		<button id="stopButton">Stop</button>
+ 	</div>
+ 	<div class="searchSection">
+		<form action="">
+ 			<input type="text" id="searchBar"/>
+ 			<input type="button" id="searchBar_button" value="Click Me"/>
+ 		</form>
+	</div>
+ </body>
+ <script src="main.js"></script>
+ </html> 
+
+ 
