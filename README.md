@@ -1,5 +1,5 @@
-# SpotifyJukeBox
+# SoundCloudJukeBox
 First API experience using jQuery to produce dynamic jukebox through Spotify.
 
-Spotify API
+SoundCloud API
 JavaScript / jQuery
